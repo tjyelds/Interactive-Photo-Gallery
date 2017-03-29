@@ -5,7 +5,7 @@ lightbox.option({
 	'showImageNumberLabel': true,
 	'maxHeight': 500,
 	'wrapAround': true
-})
+});
 
 
 // Custom search feature on unordered list
@@ -28,7 +28,7 @@ $(function() {
          }
 				 
 				 // Show a text result if no results are found
-				 if ($('.pictures li').children(':visible').length == 0) {
+				 if ($('.pictures li').children(':visible').length === 0) {
 					 $('#no-results').css('display', 'block');
 				 } else {
 					 $('#no-results').css('display', 'none');
